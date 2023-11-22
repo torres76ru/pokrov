@@ -1,0 +1,6 @@
+{
+  "printWidth": 9999999,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "wrapAttributes": "auto"
+}
