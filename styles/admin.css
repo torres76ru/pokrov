@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh; /* Заполняет всю высоту окна браузера */
+}
+
+.container {
+  display: flex;
+  flex: 1; /* Занимает оставшуюся ширину */
+}
+
+.content {
+  flex: 1; /* Занимает оставшуюся ширину */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 60px; /* Высота хедера */
+  background-color: #444; /* Цвет фона хедера */
+  color: #fff; /* Цвет текста хедера */
+}
+
+.main-content {
+  flex: 1; /* Занимает оставшуюся высоту */
+  background-color: #fff; /* Цвет фона блока контента */
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(to right, #5a6796, #965a84);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
